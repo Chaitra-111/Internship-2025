@@ -1,0 +1,11 @@
+x=input("write something:")
+a=input("which alignment do you want? right(r) left(l) or centre(c):")
+r=x.rjust(180,'-')
+l=x.ljust(180,'-')
+c=x.center(180,'-')
+if a=="r":
+    print(r)
+elif a=="l":
+    print(l)
+elif a=="c":
+    print(c)

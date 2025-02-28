@@ -1,0 +1,5 @@
+email=input("enter the email :")
+index=email.index("@")
+x=email[:index]
+y=email[index:]
+print(f"the username is {x} and the domain is {y}")

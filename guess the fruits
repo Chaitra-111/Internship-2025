@@ -1,0 +1,30 @@
+import random
+while True:
+    fruits = ["apple", "orange", "pineapple", "watermelon", "banana"]
+    y = random.choice(fruits)
+    m = y[0]
+    n = y[-1]
+    print(f"The first letter is {m} and the last letter is {n}.")
+    p = input("Do you want a clue? (Yes/No): ")
+    if p.lower() == "yes":
+        if y == "apple":
+            print("I keep doctors away if you eat me daily.")
+        elif y == "orange":
+            print("I am round, orange, and full of vitamin C.")
+        elif y == "pineapple":
+            print("I wear a crown and taste both sweet and tangy.")
+        elif y == "watermelon":
+            print("I am green outside, red inside, and full of black seeds.")
+        elif y == "banana":
+            print("I am yellow outside and monkeys love me.")
+    elif p.lower() == "no":
+        print("It's okay, continue the game!!!!!!")
+    x = input("Guess the fruit: ")
+    if x.lower() == y:
+        print("You are right!!!!!!")
+    else:
+        print("You are wrong.....")
+    q = input("Do you want to try again? (Yes/No): ")
+    if q.lower() != "yes":
+        print("It's okay, thank you for playing!!!!!!!")
+        break

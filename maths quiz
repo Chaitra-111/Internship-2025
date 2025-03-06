@@ -1,0 +1,135 @@
+import random
+print("WELOME TO THE MATH QUIZZ")
+y=input("choose a difficulty level : (easy/medium/hard)")
+if y=="easy":
+    numone = int(random.randint(1, 10))
+    numtwo = int(random.randint(1, 10))
+    operations = ["add","sub","mult","div","mod"]
+    comp_choice=random.choice(operations)
+    print(comp_choice)
+    print(numone)
+    print(numtwo)
+    user_input = int(input('Write the answer: '))
+    if comp_choice == "add":
+        add_num = numone + numtwo
+        print(numone, "+", numtwo)
+        if user_input == add_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", add_num)
+    elif comp_choice == "sub":
+        sub_num = numone - numtwo
+        print(numone, "-", numtwo)
+        if user_input == sub_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", sub_num)
+    elif comp_choice == "mult":
+        mult_num = numone * numtwo
+        print(numone, "*", numtwo)
+        if user_input == mult_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mult_num)
+    elif comp_choice == "div":
+        div_num = numone / numtwo
+        print(numone, "/", numtwo)
+        if user_input == div_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", div_num)
+    else:
+        mod_num = numone % numtwo
+        print(numone, "%", numtwo)
+        if user_input == mod_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mod_num)
+elif y=="medium":
+    numone = int(random.randint(30,50))
+    numtwo = int(random.randint(10,50))
+    operations = ["add", "sub", "mult", "div", "mod"]
+    comp_choice = random.choice(operations)
+    print(comp_choice)
+    print(numone)
+    print(numtwo)
+    user_input = int(input('Write the answer: '))
+    if comp_choice == "add":
+        add_num = numone + numtwo
+        print(numone, "+", numtwo)
+        if user_input == add_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", add_num)
+    elif comp_choice == "sub":
+        sub_num = numone - numtwo
+        print(numone, "-", numtwo)
+        if user_input == sub_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", sub_num)
+    elif comp_choice == "mult":
+        mult_num = numone * numtwo
+        print(numone, "*", numtwo)
+        if user_input == mult_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mult_num)
+    elif comp_choice == "div":
+        div_num = numone / numtwo
+        print(numone, "/", numtwo)
+        if user_input == div_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", div_num)
+    else:
+        mod_num = numone % numtwo
+        print(numone, "%", numtwo)
+        if user_input == mod_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mod_num)
+else:
+    numone = int(random.randint(50,100))
+    numtwo = int(random.randint(50, 100))
+    operations = ["add", "sub", "mult", "div", "mod"]
+    comp_choice = random.choice(operations)
+    print(comp_choice)
+    print(numone)
+    print(numtwo)
+    user_input = int(input('Write the answer: '))
+    if comp_choice == "add":
+        add_num = numone + numtwo
+        print(numone, "+", numtwo)
+        if user_input == add_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", add_num)
+    elif comp_choice == "sub":
+        sub_num = numone - numtwo
+        print(numone, "-", numtwo)
+        if user_input == sub_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", sub_num)
+    elif comp_choice == "mult":
+        mult_num = numone * numtwo
+        print(numone, "*", numtwo)
+        if user_input == mult_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mult_num)
+    elif comp_choice == "div":
+        div_num = numone / numtwo
+        print(numone, "/", numtwo)
+        if user_input == div_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", div_num)
+    else:
+        mod_num = numone % numtwo
+        print(numone, "%", numtwo)
+        if user_input == mod_num:
+            print("you are correct !!")
+        else:
+            print("sorry the ans is ", mod_num)

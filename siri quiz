@@ -1,0 +1,35 @@
+print("welcome to this mini quizz game")
+answer=input("are you ready to my this game ? (Y/N): ")
+score=0
+no_of_questions=3
+
+if answer.upper()=="Y":
+    answer=input("Question 1: which yr did i born ?")
+    if answer=="2004":
+        score= score+1
+        print("you are right :)")
+    else:
+        print("sorry ans is 2004 :(")
+    answer=input("Question 2: what is my fav free time job ?")
+    if answer=="art":
+        score=score+1
+        print("you are right :)")
+    else:
+        print("sorry my free time job is art :(")
+    answer=input("Question 3: what is my fav person in this whole world ?")
+    if answer=="sister":
+        score=score+1
+        print("you are right :)")
+    else:
+        print("sorry my fav person is my sister :(")
+    answer = input("Question 4: who is my trainer ?")
+    if answer == "ashok":
+        score = score + 1
+        print("you are right :)")
+    else:
+        print("sorry ans is ashok :(")
+    print("THANK YOU FOR PLAYING THIS SMALL GAME YOUR SCORE IS",score)
+
+else:
+    print("ALL RIGHT THANK YOU BYE BYE!!!!!")
+
